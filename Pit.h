@@ -16,7 +16,7 @@
 
 class Player;
 class Snake;
-class History;
+
 
 class Pit
 {

@@ -7,6 +7,8 @@
 //
 
 //#include <stdio.h>
+//didn't include
+//#include <cstdlib>	We use std::exit
 #include "Pit.h"
 #include "Snake.h"
 #include "globals.h"

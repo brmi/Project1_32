@@ -6,7 +6,9 @@
 //  Copyright (c) 2015 desiree. All rights reserved.
 //
 
- 
+//didn't include
+//#include "History.h" ... we use history.record()
+//#include <cstdlib>	We use std::exit
 #include "Pit.h"
 #include "Player.h"
 #include "globals.h"

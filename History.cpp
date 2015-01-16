@@ -7,11 +7,13 @@
 //
 
 #include "History.h"
-#include "Pit.h"
+//#include "Pit.h"
 #include "globals.h"
 #include <iostream>
+//didn't include
+#include <cstdlib> //for exit
 
-History::History(int nRows, int nCols): m_row(nRows), m_col(nCols) //how are these getting the same thing as pit??
+History::History(int nRows, int nCols): m_row(nRows), m_col(nCols) 
 {
     // Fill the grid with dots
     for (int r = 0; r<nRows; r++)
@@ -28,6 +30,7 @@ bool History::record(int r, int c)
     if(r > m_row || r<=0 || c>m_col || c<=0)
         return false;
     
+    //using ascii stuff
     
   if (grid[r-1][c-1]== '.')
       grid[r-1][c-1]='A';

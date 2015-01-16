@@ -6,12 +6,16 @@
 //  Copyright (c) 2015 desiree. All rights reserved.
 //
 
+//didn't include
+//#include <string>	We use std::string
+//#include <cstdlib>	We use std::exit
+
 #include <iostream>
 using namespace std;
 #include "Game.h"
 #include "Pit.h"
 #include "Player.h"
-#include "history.h"
+#include "History.h"
 #include "globals.h"
 
 

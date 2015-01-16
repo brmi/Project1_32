@@ -7,10 +7,22 @@
 //
 
 // snakepit.cpp
+#include <cstdlib>
+#include <ctime>
+#include "Game.h"
+//didn't include
+//using namespace std; 
 
-#include "Pit.h"
 int main()
 {
-    Pit pt(10, 18);
-    pt.addPlayer(2, 2);
+// Initialize the random number generator.  (You don't need to
+// understand how this works.)
+srand(static_cast<unsigned int>(time(0)));
+
+// Create a game
+// Use this instead to create a mini-game:   Game g(3, 3, 2);
+Game g(9, 10, 40);
+
+// Play the game
+g.play();
 }
